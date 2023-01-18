@@ -32,3 +32,17 @@ with open('text_code_words.txt', 'w', encoding='UTF-8') as file:
     file.write(f'{txt_1}')
 print(txt_1)
 
+# import random
+
+# txt = "абв"
+# print(txt)
+# num_word = (int(input("Количество слов в тексте: ")))
+# list_word = []
+# for x in range(num_word):
+#     random_txt = random.sample(txt, 3)
+#     list_word.append("".join(random_txt))
+
+# print(" ".join(list_word))
+
+# list_word2 = list(filter(lambda x: txt not in x, list_word))
+# print(" ".join(list_word2))
